@@ -57,5 +57,6 @@ result:
 
 like this: 
 ```
-curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "time":5000}' -H "Content-Type: application/json" http://stockdolphin.azurewebsites.net/suggestmoves
+curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "time":5000}' 
+    -H "Content-Type: application/json" http://stockdolphin.azurewebsites.net/suggestmoves
 ```
