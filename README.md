@@ -23,7 +23,7 @@ POST suggestmoves
 result:
 ```javascript
 { 
-  "text" : "The dolpins suggest these moves for white: ",
+  "text" : "The dolphins suggest these moves for white: ",
   "suggestedMoves" : [
         { "m": "e4", // the move
           "w": 70, // the chance for white to win if this move is played
@@ -55,5 +55,5 @@ result:
              
 **you can even ask the dolpins in the cloud!!*
 
-like this: curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0application/json" http://stockdolphin.azurewebsites.net/movesuggestions
+like this: curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0application/json" http://stockdolphin.azurewebsites.net/suggestmoves
 
