@@ -19,28 +19,28 @@ result:
 { 
   "text" : "The dolpins suggest these moves for white: ",
   "suggestedMoves" : [
-        { m: "e4", // the move
-          w: 70, // the chance for white to win if this move is played
-          d: 20, // the probability for game to end in a draw (if this move is used)
-          b: 10  // the probability for black to win if this move is played
+        { "m": "e4", // the move
+          "w": 70, // the chance for white to win if this move is played
+          "d": 20, // the probability for game to end in a draw (if this move is used)
+          "b": 10  // the probability for black to win if this move is played
           },
           {
-             m:"a3",
-             w: 69,
-             d: 21,
-             b: 10
+             "m":"a3",
+             "w": 69,
+             "d": 21,
+             "b": 10
              },
           {
-             m:"h3",
-             w: 60,
-             d: 10,
-             b: 30
+             "m":"h3",
+             "w": 60,
+             "d": 10,
+             "b": 30
              },
           {
-             m:"h3",
-             w: 60,
-             d: 10,
-             b: 30
+             "m":"h3",
+             "w": 60,
+             "d": 10,
+             "b": 30
              }
           ]
 }
