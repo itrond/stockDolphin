@@ -15,7 +15,7 @@ POST suggestmoves
         }
         
 result:
-
+```javascript
 { 
   "text" : "The dolpins suggest these moves for white: ",
   "suggestedMoves" : [
@@ -44,6 +44,8 @@ result:
              }
           ]
 }
+  
+```  
              
 **you can even ask the dolpins in the cloud!!*
 
