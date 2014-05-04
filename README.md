@@ -1,14 +1,16 @@
 stockDolphin
 ============
 
-As the dolphins about chess moves, not the fish(the don't have a clue)
+**Ask the dolphins about chess moves, not the fish(the don't have a clue)**
 
 Send the fen-string and the time they can think about it, and they send you suggested moves back!
 
 
 usage:
 
-POST {  "fen": "the fen string goes here", // the fen string, describing the situation on the chess board
+POST suggestmoves
+
+      {  "fen": "the fen string goes here", // the fen string, describing the situation on the chess board
         "maxTime": 5000 // milliseconds the dolpins can crank out move suggestions (in milliseconds)
         }
         
@@ -31,3 +33,7 @@ result:
              ..
              ..
              
+**you can even ask the dolpins in the cloud!!*
+
+like this: curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0application/json" http://stockdolphin.azurewebsites.net/movesuggestions
+
