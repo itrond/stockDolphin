@@ -15,29 +15,39 @@ app.post('/suggestmoves', function(req,res){
   /* post a fen-string and get
 
       "top quality" suggestions from stockDolphin
-
-      */
-
-  var data = req.body;
-
-  var chess = new ch.Chess(data.fen);
-
-  var pm = chess.moves(); //possible moves
-
-  var suggestions = [
-     {m:pm[0], w:20, d:70, b:10},
-     {m:pm[1], w:18, d:72, b:10},
-     {m:pm[2], w:12, d:80, b:8}
-  ];
+  */
 
 
+  console.log("we got the problem... have to think...");
 
-  var ret = {
-    text: "Suggested moves for " + (chess.turn()=="b" ? "black" : "white"),
-    suggestedMoves: suggestions
-      }
+  var fen = req.body.fen;
+  var maxTime = req.body.maxTime;
 
-  res.send(ret);
+  console.log("The fen:" + fen);
+  console.log("The time we got: " + maxTime / 1000 + "seconds");
+
+
+  setTimeout(function(){
+
+    var chess = new ch.Chess(fen);
+
+    var pm = chess.moves(); //possible moves
+
+    var suggestions = [
+       {m:pm[0], w:20, d:70, b:10},
+       {m:pm[1], w:18, d:72, b:10},
+       {m:pm[2], w:12, d:80, b:8}
+    ];
+
+    var ret = {
+      text: "Suggested moves for " + (chess.turn()=="b" ? "black" : "white"),
+      suggestedMoves: suggestions
+        }
+    console.log("yepp. Found some gooood moves...");
+    console.log(JSON.stringify(ret));
+    res.send(ret);
+
+  }, maxTime);
 
 });
 
@@ -48,9 +58,10 @@ app.post('/suggestmoves', function(req,res){
 // Others ... might usefull...
 
 app.get('/openingfen', function(req, res){
+  var chess = new ch.Chess();
   res.send(chess.fen());
 });
 
 
-
+console.log("give us some chess challenges (or some fish)...");
 app.listen(port);
