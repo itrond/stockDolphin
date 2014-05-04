@@ -1,7 +1,7 @@
 stockDolphin
 ============
 
-**Ask the dolphins about chess moves, not the fish(the don't have a clue)!**
+**Ask the dolphins about chess moves, not the fish(they don't have a clue)!**
 
 (The dolpins says "Thank you to chess.js": https://github.com/jhlywa/chess.js)
 
@@ -53,7 +53,9 @@ result:
   
 ```  
              
-**you can even ask the dolpins in the cloud!!*
+**you can even ask the dolpins in the cloud!!**
 
-like this: curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0application/json" http://stockdolphin.azurewebsites.net/suggestmoves
-
+like this: 
+```
+curl -d '{"fen":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "time":5000}' -H "Content-Type: application/json" http://stockdolphin.azurewebsites.net/suggestmoves
+```
