@@ -25,14 +25,25 @@ result:
           b: 10  // the probability for black to win if this move is played
           },
           {
-             m:"a1",
+             m:"a3",
              w: 69,
              d: 21,
              b: 10
+             },
+          {
+             m:"h3",
+             w: 60,
+             d: 10,
+             b: 30
+             },
+          {
+             m:"h3",
+             w: 60,
+             d: 10,
+             b: 30
              }
-             
-             ..
-             ..
+          ]
+}
              
 **you can even ask the dolpins in the cloud!!*
 
