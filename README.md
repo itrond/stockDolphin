@@ -3,7 +3,8 @@ stockDolphin
 
 **Ask the dolphins about chess moves, not the fish(the don't have a clue)!**
 
-The dolpins says "Thank out to chess.js": https://github.com/jhlywa/chess.js/blob/master/README.md
+(The dolpins says "Thank you to chess.js": https://github.com/jhlywa/chess.js)
+
 
 Send the fen-string and the time they can think about it, and they send you suggested moves back!
 
