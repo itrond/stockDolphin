@@ -9,10 +9,8 @@ var bodyParser = require('body-parser');
 app.use(bodyParser());
 
 var ch =  require('./chess.js/chess.js');
-var chess = new ch.Chess();
 
-
-app.post('/moveSuggestions', function(req,res){
+app.post('/suggestmoves', function(req,res){
 
   /* post a fen-string and get
 
@@ -41,7 +39,11 @@ app.post('/moveSuggestions', function(req,res){
 
   res.send(ret);
 
-})
+});
+
+app.post('/suggestmoves', function(req,res){
+  res.send("Sorry, you have to use POST");
+});
 
 // Others ... might usefull...
 
