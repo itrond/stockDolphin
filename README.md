@@ -16,7 +16,8 @@ POST suggestmoves
         
 result:
 
-{ text : "The dolpins suggest these moves for white: ",
+{ 
+  text : "The dolpins suggest these moves for white: ",
   suggestedMoves[
         { m: "e4", // the move
           w: 70, // the chance for white to win if this move is played
