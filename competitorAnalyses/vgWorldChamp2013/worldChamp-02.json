@@ -1,0 +1,701 @@
+[{
+    "move": "e4",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "c5",
+        "chance": 8
+    }, {
+        "move": "e6",
+        "chance": 8
+    }, {
+        "move": "e5",
+        "chance": 8
+    }]
+}, {
+    "move": "c6",
+    "white": 21,
+    "black": 7,
+    "suggestions": [{
+        "move": "d4",
+        "chance": 21
+    }, {
+        "move": "Sc3",
+        "chance": 21
+    }, {
+        "move": "Sf3",
+        "chance": 21
+    }]
+}, {
+    "move": "d4",
+    "white": 20,
+    "black": 7,
+    "suggestions": [{
+        "move": "d5",
+        "chance": 7
+    }, {
+        "move": "d6",
+        "chance": 7
+    }, {
+        "move": "Dc7",
+        "chance": 7
+    }]
+}, {
+    "move": "d5",
+    "white": 20,
+    "black": 7,
+    "suggestions": [{
+        "move": "Sc3",
+        "chance": 20
+    }, {
+        "move": "Sd2",
+        "chance": 20
+    }, {
+        "move": "e5",
+        "chance": 18
+    }]
+}, {
+    "move": "Sc3",
+    "white": 20,
+    "black": 7,
+    "suggestions": [{
+        "move": "dxe4",
+        "chance": 7
+    }, {
+        "move": "e6",
+        "chance": 7
+    }, {
+        "move": "Da5",
+        "chance": 6
+    }]
+}, {
+    "move": "dxe4",
+    "white": 20,
+    "black": 7,
+    "suggestions": [{
+        "move": "Sxe4",
+        "chance": 20
+    }, {
+        "move": "Sge2",
+        "chance": 11
+    }, {
+        "move": "f3",
+        "chance": 8
+    }]
+}, {
+    "move": "Sxe4",
+    "white": 18,
+    "black": 8,
+    "suggestions": [{
+        "move": "Lf5",
+        "chance": 8
+    }, {
+        "move": "Sf6",
+        "chance": 7
+    }, {
+        "move": "Sd7",
+        "chance": 8
+    }]
+}, {
+    "move": "Lf5",
+    "white": 18,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sg3",
+        "chance": 18
+    }, {
+        "move": "Ld3",
+        "chance": 16
+    }, {
+        "move": "Sc3",
+        "chance": 16
+    }]
+}, {
+    "move": "Sg3",
+    "white": 18,
+    "black": 8,
+    "suggestions": [{
+        "move": "Lg6",
+        "chance": 8
+    }, {
+        "move": "Lc8",
+        "chance": 6
+    }, {
+        "move": "Le6",
+        "chance": 5
+    }]
+}, {
+    "move": "Lg6",
+    "white": 17,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sf3",
+        "chance": 17
+    }, {
+        "move": "h4",
+        "chance": 16
+    }, {
+        "move": "Lf4",
+        "chance": 16
+    }]
+}, {
+    "move": "h4",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "h6",
+        "chance": 8
+    }, {
+        "move": "h5",
+        "chance": 7
+    }, {
+        "move": "Sf6",
+        "chance": 5
+    }]
+}, {
+    "move": "h6",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Ld3",
+        "chance": 16
+    }, {
+        "move": "Lf4",
+        "chance": 16
+    }, {
+        "move": "Sf3",
+        "chance": 16
+    }]
+}, {
+    "move": "Sf3",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sd7",
+        "chance": 8
+    }, {
+        "move": "e6",
+        "chance": 8
+    }, {
+        "move": "Sf6",
+        "chance": 8
+    }]
+}, {
+    "move": "e6",
+    "white": 18,
+    "black": 8,
+    "suggestions": [{
+        "move": "Se5",
+        "chance": 18
+    }, {
+        "move": "Ld3",
+        "chance": 16
+    }, {
+        "move": "Lf4",
+        "chance": 16
+    }]
+}, {
+    "move": "Se5",
+    "white": 18,
+    "black": 8,
+    "suggestions": [{
+        "move": "Lh7",
+        "chance": 8
+    }, {
+        "move": "Se7",
+        "chance": 7
+    }, {
+        "move": "Sd7",
+        "chance": 3
+    }]
+}, {
+    "move": "Lh7",
+    "white": 18,
+    "black": 7,
+    "suggestions": [{
+        "move": "Ld3",
+        "chance": 18
+    }, {
+        "move": "c3",
+        "chance": 15
+    }, {
+        "move": "Dh5",
+        "chance": 15
+    }]
+}, {
+    "move": "Ld3",
+    "white": 18,
+    "black": 7,
+    "suggestions": [{
+        "move": "Lxd3",
+        "chance": 7
+    }, {
+        "move": "Sd7",
+        "chance": 6
+    }, {
+        "move": "Lb4+",
+        "chance": 6
+    }]
+}, {
+    "move": "Lxd3",
+    "white": 19,
+    "black": 8,
+    "suggestions": [{
+        "move": "Dxd3",
+        "chance": 19
+    }, {
+        "move": "Sxd3",
+        "chance": 8
+    }, {
+        "move": "cxd3",
+        "chance": 7
+    }]
+}, {
+    "move": "Dxd3",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sd7",
+        "chance": 8
+    }, {
+        "move": "Sf6",
+        "chance": 8
+    }, {
+        "move": "Ld6",
+        "chance": 7
+    }]
+}, {
+    "move": "Sd7",
+    "white": 17,
+    "black": 8,
+    "suggestions": [{
+        "move": "Lf4",
+        "chance": 17
+    }, {
+        "move": "De2",
+        "chance": 16
+    }, {
+        "move": "f4",
+        "chance": 16
+    }]
+}, {
+    "move": "f4",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sgf6",
+        "chance": 8
+    }, {
+        "move": "Lb4+",
+        "chance": 8
+    }, {
+        "move": "Dc7",
+        "chance": 8
+    }]
+}, {
+    "move": "Lb4+",
+    "white": 16,
+    "black": 7,
+    "suggestions": [{
+        "move": "c3",
+        "chance": 16
+    }, {
+        "move": "Ld2",
+        "chance": 15
+    }, {
+        "move": "Kf1",
+        "chance": 8
+    }]
+}, {
+    "move": "c3",
+    "white": 16,
+    "black": 7,
+    "suggestions": [{
+        "move": "Le7",
+        "chance": 7
+    }, {
+        "move": "Lf8",
+        "chance": 7
+    }, {
+        "move": "Ld6",
+        "chance": 8
+    }]
+}, {
+    "move": "Le7",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Df3",
+        "chance": 16
+    }, {
+        "move": "Ld2",
+        "chance": 15
+    }, {
+        "move": "O-O",
+        "chance": 15
+    }]
+}, {
+    "move": "Ld2",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sgf6",
+        "chance": 8
+    }, {
+        "move": "Tc8",
+        "chance": 8
+    }, {
+        "move": "c5",
+        "chance": 8
+    }]
+}, {
+    "move": "Sgf6",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "O-O-O",
+        "chance": 16
+    }, {
+        "move": "De2",
+        "chance": 15
+    }, {
+        "move": "Se2",
+        "chance": 8
+    }]
+}, {
+    "move": "O-O-O",
+    "white": 16,
+    "black": 7,
+    "suggestions": [{
+        "move": "O-O",
+        "chance": 7
+    }, {
+        "move": "Dc7",
+        "chance": 8
+    }, {
+        "move": "Tc8",
+        "chance": 8
+    }]
+}, {
+    "move": "O-O",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Kb1",
+        "chance": 16
+    }, {
+        "move": "Df3",
+        "chance": 16
+    }, {
+        "move": "Se2",
+        "chance": 15
+    }]
+}, {
+    "move": "Se4",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Sxe4",
+        "chance": 8
+    }, {
+        "move": "Sxe5",
+        "chance": 8
+    }, {
+        "move": "c5",
+        "chance": 7
+    }]
+}, {
+    "move": "Sxe4",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Dxe4",
+        "chance": 16
+    }, {
+        "move": "Sxd7",
+        "chance": 4
+    }, {
+        "move": "Sxf7",
+        "chance": 1
+    }]
+}, {
+    "move": "Dxe4",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "a5",
+        "chance": 8
+    }, {
+        "move": "Sf6",
+        "chance": 8
+    }, {
+        "move": "Sxe5",
+        "chance": 8
+    }]
+}, {
+    "move": "Sxe5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "fxe5",
+        "chance": 15
+    }, {
+        "move": "dxe5",
+        "chance": 8
+    }, {
+        "move": "Dxe5",
+        "chance": 8
+    }]
+}, {
+    "move": "fxe5",
+    "white": 16,
+    "black": 7,
+    "suggestions": [{
+        "move": "Dd5",
+        "chance": 7
+    }, {
+        "move": "Da5",
+        "chance": 8
+    }, {
+        "move": "f5",
+        "chance": 8
+    }]
+}, {
+    "move": "Dd5",
+    "white": 16,
+    "black": 8,
+    "suggestions": [{
+        "move": "Dxd5",
+        "chance": 16
+    }, {
+        "move": "Dg4",
+        "chance": 15
+    }, {
+        "move": "Tde1",
+        "chance": 11
+    }]
+}, {
+    "move": "Dxd5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "cxd5",
+        "chance": 8
+    }, {
+        "move": "exd5",
+        "chance": 8
+    }, {
+        "move": "Tfe8",
+        "chance": 1
+    }]
+}, {
+    "move": "cxd5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "g4",
+        "chance": 15
+    }, {
+        "move": "g3",
+        "chance": 15
+    }, {
+        "move": "Tdf1",
+        "chance": 15
+    }]
+}, {
+    "move": "h5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "b5",
+        "chance": 8
+    }, {
+        "move": "a5",
+        "chance": 8
+    }, {
+        "move": "Tac8",
+        "chance": 8
+    }]
+}, {
+    "move": "b5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Kc2",
+        "chance": 15
+    }, {
+        "move": "Th3",
+        "chance": 15
+    }, {
+        "move": "a3",
+        "chance": 15
+    }]
+}, {
+    "move": "Th3",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "a5",
+        "chance": 8
+    }, {
+        "move": "Tac8",
+        "chance": 8
+    }, {
+        "move": "Tab8",
+        "chance": 8
+    }]
+}, {
+    "move": "a5",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Tg3",
+        "chance": 15
+    }, {
+        "move": "Kb1",
+        "chance": 15
+    }, {
+        "move": "Kc2",
+        "chance": 13
+    }]
+}, {
+    "move": "Tf1",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Ta7",
+        "chance": 6
+    }, {
+        "move": "b4",
+        "chance": 6
+    }, {
+        "move": "Tac8",
+        "chance": 8
+    }]
+}, {
+    "move": "Tac8",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Kb1",
+        "chance": 15
+    }, {
+        "move": "Tg3",
+        "chance": 15
+    }, {
+        "move": "Kc2",
+        "chance": 13
+    }]
+}, {
+    "move": "Tg3",
+    "white": 13,
+    "black": 7,
+    "suggestions": [{
+        "move": "Kh8",
+        "chance": 7
+    }, {
+        "move": "Kh7",
+        "chance": 6
+    }, {
+        "move": "Lh4",
+        "chance": 7
+    }]
+}, {
+    "move": "Kh7",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Kb1",
+        "chance": 14
+    }, {
+        "move": "Tgf3",
+        "chance": 14
+    }, {
+        "move": "Kc2",
+        "chance": 13
+    }]
+}, {
+    "move": "Tgf3",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Kg8",
+        "chance": 6
+    }, {
+        "move": "f6",
+        "chance": 8
+    }, {
+        "move": "f5",
+        "chance": 7
+    }]
+}, {
+    "move": "Kg8",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Kb1",
+        "chance": 14
+    }, {
+        "move": "Tg3",
+        "chance": 14
+    }, {
+        "move": "Kc2",
+        "chance": 13
+    }]
+}, {
+    "move": "Tg3",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Kh8",
+        "chance": 6
+    }, {
+        "move": "Kh7",
+        "chance": 6
+    }, {
+        "move": "Lh4",
+        "chance": 7
+    }]
+}, {
+    "move": "Kh7",
+    "white": 14,
+    "black": 6,
+    "suggestions": [{
+        "move": "Kb1",
+        "chance": 14
+    }, {
+        "move": "Kc2",
+        "chance": 14
+    }, {
+        "move": "Tgf3",
+        "chance": 14
+    }]
+}, {
+    "move": "Tgf3",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Kg8",
+        "chance": 8
+    }, {
+        "move": "f6",
+        "chance": 7
+    }, {
+        "move": "f5",
+        "chance": 7
+    }]
+}, {
+    "move": "Kg8",
+    "white": 15,
+    "black": 8,
+    "suggestions": [{
+        "move": "Kc2",
+        "chance": 15
+    }, {
+        "move": "Kb1",
+        "chance": 13
+    }, {
+        "move": "Td3",
+        "chance": 10
+    }]
+}]
